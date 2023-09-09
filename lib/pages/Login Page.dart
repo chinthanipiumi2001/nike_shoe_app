@@ -27,6 +27,15 @@ class LoginPage extends StatelessWidget{
                     ),
                   ],
                 ),
+                child: Row(
+                  children: [
+                    Icon(
+                      Icons.person,
+                      color: Color(0xFF475269),
+                    ),
+                    SizedBox(width: 10),
+                  ],
+                ),
               ),
             ],
           ),
