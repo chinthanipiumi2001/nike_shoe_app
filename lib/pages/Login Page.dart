@@ -15,6 +15,10 @@ class LoginPage extends StatelessWidget{
               Container(
                 margin: EdgeInsets.symmetric(horizontal: 20),
                 padding: EdgeInsets.symmetric(horizontal: 15),
+                height: 55,
+                decoration: BoxDecoration(
+                  color: Color(0xFFF5F9FD),
+                ),
               ),
             ],
           ),
