@@ -10,6 +10,11 @@ class LoginPage extends StatelessWidget{
             children: [
               Padding(
                 padding: EdgeInsets.symmetric(vertical: 20),
+                child: Image.asset("images/login.png"),
+              ),
+              Container(
+                margin: EdgeInsets.symmetric(horizontal: 20),
+                padding: EdgeInsets.symmetric(horizontal: 15),
               ),
             ],
           ),
