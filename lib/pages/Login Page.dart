@@ -5,7 +5,15 @@ class LoginPage extends StatelessWidget{
   Widget build(BuildContext context){
     return Scaffold(
       body: SingleChildScrollView(
-
+        child: SafeArea(
+          child: Column(
+            children: [
+              Padding(
+                padding: EdgeInsets.symmetric(vertical: 20),
+              ),
+            ],
+          ),
+        ),
       ),
     );
   }
