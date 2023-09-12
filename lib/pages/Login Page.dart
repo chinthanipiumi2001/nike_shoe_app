@@ -35,7 +35,14 @@ class LoginPage extends StatelessWidget{
                     ),
                     SizedBox(width: 10),
                     Container(
-
+                      //margin: EdgeInsets.,
+                      width: 250,
+                      child: TextFormField(
+                        decoration: InputDecoration(
+                          border: InputBorder.none,
+                          hintText: "Enter Username",
+                        ),
+                      ),
                     ),
                   ],
                 ),
