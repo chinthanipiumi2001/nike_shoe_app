@@ -99,8 +99,12 @@ class LoginPage extends StatelessWidget{
                   ),
                 ),
               ),
-              Container(
-
+             SizedBox(height:40),
+              InkWell(
+                onTap: (){},
+                child: Container(
+                  alignment: Alignment.center,
+                ),
               ),
             ],
           ),
