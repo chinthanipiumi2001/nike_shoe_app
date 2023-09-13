@@ -104,6 +104,8 @@ class LoginPage extends StatelessWidget{
                 onTap: (){},
                 child: Container(
                   alignment: Alignment.center,
+                  margin: EdgeInsets.symmetric(horizontal: 20),
+                  padding: EdgeInsets.symmetric(horizontal: 15),
                 ),
               ),
             ],
