@@ -131,7 +131,13 @@ class LoginPage extends StatelessWidget{
                 ),
               ),
               SizedBox(height:50),
-
+              Row(
+                children: [
+                  Text(
+                    "Don't Have Account? -",
+                  ),
+                ],
+              ),
             ],
           ),
         ),
