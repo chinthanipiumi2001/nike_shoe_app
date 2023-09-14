@@ -101,7 +101,9 @@ class LoginPage extends StatelessWidget{
               ),
              SizedBox(height:40),
               InkWell(
-                onTap: (){},
+                onTap: (){
+                  Navigator.pushNamed(context, "homePage");
+                },
                 child: Container(
                   alignment: Alignment.center,
                   margin: EdgeInsets.symmetric(horizontal: 20),
@@ -132,9 +134,24 @@ class LoginPage extends StatelessWidget{
               ),
               SizedBox(height:50),
               Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
                     "Don't Have Account? -",
+                    style: TextStyle(
+                      color: Color(0xFF475269).withOpacity(0.8),
+                    ),
+                  ),
+                  TextButton(
+                    onPressed: (){},
+                    child: Text(
+                      "Sign Up",
+                      style: TextStyle(
+                        color: Color(0xFF475269),
+                        fontSize: 18,
+                        fontWeight: FontWeight.w500,
+                      ),
+                    ),
                   ),
                 ],
               ),
