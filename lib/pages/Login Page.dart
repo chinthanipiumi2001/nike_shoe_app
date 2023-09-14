@@ -119,8 +119,19 @@ class LoginPage extends StatelessWidget{
                       ),
                     ],
                   ),
+                  child: Text(
+                    "Sign In",
+                    style: TextStyle(
+                      fontSize: 25,
+                      fontWeight: FontWeight.w500,
+                      color: Colors.white,
+                      letterSpacing: 1,
+                    ),
+                  ),
                 ),
               ),
+              SizedBox(height:50),
+
             ],
           ),
         ),
