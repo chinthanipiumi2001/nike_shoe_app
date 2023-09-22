@@ -24,6 +24,11 @@ class HomePage extends StatelessWidget{
                         ),
                       ],
                     ),
+                    child: Icon(
+                      Icons.sort,
+                      size: 30,
+                      color: Color(0xFF475369),
+                    ),
                   ),
                 ],),
               ),
