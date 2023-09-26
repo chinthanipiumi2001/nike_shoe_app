@@ -9,25 +9,43 @@ class HomePage extends StatelessWidget{
           child: Column(
             children: [
               Padding(
-                padding: EdgeInsets.all(15),
+                padding: const EdgeInsets.all(15),
                 child: Row(children: [
                   Container(
-                    padding: EdgeInsets.all(8),
+                    padding: const EdgeInsets.all(8),
                     decoration: BoxDecoration(
-                      color: Color(0xFFF5F9FD),
+                      color: const Color(0xFFF5F9FD),
                       borderRadius: BorderRadius.circular(10),
                       boxShadow: [
                         BoxShadow(
-                          color: Color(0xFF475369).withOpacity(0.3),
+                          color: const Color(0xFF475369).withOpacity(0.3),
                           blurRadius: 5,
                           spreadRadius: 1,
                         ),
                       ],
                     ),
-                    child: Icon(
+                    child: const Icon(
                       Icons.sort,
                       size: 30,
                       color: Color(0xFF475369),
+                    ),
+                  ),
+                  Container(
+                    padding: const EdgeInsets.all(8),
+                    decoration: BoxDecoration(
+                      color: const Color(0xFFF5F9FD),
+                      borderRadius: BorderRadius.circular(10),
+                      boxShadow: [
+                        BoxShadow(
+                          color: const Color(0xFF475369).withOpacity(0.3),
+                          blurRadius: 5,
+                          spreadRadius: 1,
+                        ),
+                      ],
+                    ),
+                    child: const Badge(
+                      backgroundColor:Colors.redAccent,
+                      padding: EdgeInsets.all(7),
                     ),
                   ),
                 ],),
